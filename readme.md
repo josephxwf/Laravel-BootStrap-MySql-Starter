@@ -36,10 +36,20 @@
   - php composer-setup.php
   - php -r "unlink('composer-setup.php');"
   - mv composer.phar /usr/local/bin/composer
-
+  
+  
 - Via Composer Create-Project:
 
   - composer create-project --prefer-dist laravel/laravel ProjectName
+
+- If project has already been created (git clone from github)
+
+  - cd to project root:
+    - copy .env.example and create a new fie .env
+    - composer install
+
+  - generate application key to .env by running the command:
+     - php artisan key:generate
 
 ### 2. Add Auth to project
   
