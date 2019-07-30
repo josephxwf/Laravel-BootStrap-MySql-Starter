@@ -15,7 +15,7 @@
 - bootstrap  "^4.0.0"
 - virtualbox
 - Vagrant (ship a Vagrantfile with your project, allowing others working on the project on vagrant up)
-- By default, vue.js, JQuery and Bootstrap are installed in laravel 5.7
+- By default, Vue.js, jQuery and Bootstrap are installed in laravel 5.7
 - Voyager Admin Package
 
 ## Installation Steps for Setting Up Larael
@@ -51,7 +51,7 @@
   - generate application key to .env by running the command:
      - php artisan key:generate
 
-### 2. Add Auth to project
+### 2. Add User Auth to project (if you need users to login later)
   
   - php artisan make:auth
 
