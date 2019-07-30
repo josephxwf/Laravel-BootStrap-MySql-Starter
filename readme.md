@@ -55,13 +55,13 @@
   
   - php artisan make:auth
 
-### 3. Set Up loacl Dev Env
+### 3. Set Up local Dev Env
 
 #### a. Set up local development server
 - Start up a local development server with php artisan serve And, visit http://localhost:8000/.
   - php artisan serve 
   
-#### b. Aternativly we can set up a robust local development virtual server
+#### b. Aternativly we can set up a robust local development virtual server (already including php and mysql in homestead, skip step 1)
 
 - Install VirtualBox and Vagrant 
   - https://www.virtualbox.org/wiki/Downloads
